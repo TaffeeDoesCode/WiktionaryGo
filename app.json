@@ -7,6 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "scheme": "wiktionarygo",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -34,6 +35,9 @@
       "eas": {
         "projectId": "b24af7b8-d6ce-436a-b0fe-63b634e574ae"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
